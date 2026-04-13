@@ -82,14 +82,22 @@ V6_Hybrid_Mechatronics_Project/
 
 ## Key Technical Highlights
 
-### DC Motor State Space Model
+#### DC Motor State Space Model
 ```math
 \dot{x} = Ax + Bu
----
 ```
-States:armature current and angular velocity
-Controller: LQR optimal with full-state
-feedbackObserver: Luenberger for unmeasured state estimation
+#### States:
+```text
+armature current and angular velocity
+```
+#### Controller:
+```text
+LQR optimal with full-state
+```
+#### feedbackObserver:
+```text
+Luenberger for unmeasured state estimation
+```
 ---
 ## HEV Power Split Modes
 
