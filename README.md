@@ -21,7 +21,7 @@ across three domains:
 ---
 
 ## Project Structure
-```text"
+
 V6_Hybrid_Mechatronics_Project/
 │
 ├── 01_SolidWorks_Mechanical/
