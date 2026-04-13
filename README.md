@@ -21,3 +21,68 @@ across three domains:
 ---
 
 ## Project Structure
+V6_Hybrid_Mechatronics_Project/
+│
+├── 01_SolidWorks_Mechanical/
+│   ├── Parts/
+│   ├── Assembly/
+│   ├── Drawings/
+│   └── Renders/
+│
+├── 02_SolidWorks_Electrical/
+│   ├── Wiring_Harness/
+│   ├── PCB_Layout/
+│   └── Schematics/
+│
+├── 03_Flow_Simulation/
+│   ├── Intake_Manifold_CFD/
+│   └── Results/
+│
+├── 04_MATLAB_Simulink/
+│   ├── Motor_Model/
+│   ├── Controller_Design/
+│   ├── Hybrid_Powertrain/
+│   └── Results/
+│
+├── 05_Integration/
+│   └── SW_to_Simulink_Parameters/
+│
+└── 06_Documentation/
+├── Project_Report.pdf
+└── Presentation_Slides.pptx
+
+---
+
+## Tools Used
+
+| Tool | Purpose |
+|------|---------|
+| SolidWorks 2024 | 3D mechanical modelling & assembly |
+| SolidWorks Flow Simulation | CFD intake manifold analysis |
+| SolidWorks Electrical | Wiring harness & PCB layout |
+| MATLAB R2024a | State space modelling & LQR design |
+| Simulink | Dynamic system simulation |
+| Simscape | Physical component modelling |
+
+---
+
+## Completed Phases
+
+- [x] V6 engine 3D model — all parts and assembly
+- [ ] CFD flow simulation — intake manifold
+- [ ] DC motor SolidWorks model
+- [ ] MATLAB state space motor model
+- [ ] LQR controller + Luenberger observer
+- [ ] Full HEV Simulink simulation
+- [ ] SolidWorks Electrical integration
+- [ ] Final report (LaTeX)
+
+---
+
+## Key Technical Highlights
+
+### DC Motor State Space Model
+```math
+\dot{x} = Ax + Bu
+States: armature current and angular velocityController: LQR optimal with full-state feedbackObserver: Luenberger for unmeasured state estimation
+HEV Power Split Modes
