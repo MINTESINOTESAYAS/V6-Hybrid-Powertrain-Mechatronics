@@ -91,7 +91,7 @@ V6_Hybrid_Mechatronics_Project/
 #### Controller:
 -LQR optimal with full-state
 
-#### FeedbackObserver:
+#### Feedback Observer:
 -Luenberger for unmeasured state estimation
 
 ---
