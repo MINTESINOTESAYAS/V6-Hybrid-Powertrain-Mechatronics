@@ -19,9 +19,9 @@ across three domains:
   Luenberger observer in MATLAB/Simulink
 
 ---
-``` text
-## Project Structure
 
+## Project Structure
+``` text
 V6_Hybrid_Mechatronics_Project/
 │
 ├── 01_SolidWorks_Mechanical/
@@ -86,7 +86,8 @@ V6_Hybrid_Mechatronics_Project/
 ```math
 \dot{x} = Ax + Bu
 ---
-States: armature current and angular velocity
+```
+States:armature current and angular velocity
 Controller: LQR optimal with full-state
 feedbackObserver: Luenberger for unmeasured state estimation
 ---
