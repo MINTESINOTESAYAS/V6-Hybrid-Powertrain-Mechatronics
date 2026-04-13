@@ -87,10 +87,12 @@ V6_Hybrid_Mechatronics_Project/
 \dot{x} = Ax + Bu
 ```
 #### States: 
-Armature current and angular velocity
-#### Controller: LQR optimal with full-state
+-Armature current and angular velocity
+#### Controller:
+-LQR optimal with full-state
 
-#### FeedbackObserver:Luenberger for unmeasured state estimation
+#### FeedbackObserver:
+-Luenberger for unmeasured state estimation
 
 ---
 ## HEV Power Split Modes
