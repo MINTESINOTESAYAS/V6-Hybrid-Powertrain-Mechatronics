@@ -87,11 +87,10 @@ V6_Hybrid_Mechatronics_Project/
 \dot{x} = Ax + Bu
 ```
 #### States:
-```text
+```
 armature current and angular velocity
 ```
-#### Controller:
-```text
+#### Controller: ```
 LQR optimal with full-state
 ```
 #### feedbackObserver:
