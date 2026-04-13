@@ -84,5 +84,7 @@ V6_Hybrid_Mechatronics_Project/
 ### DC Motor State Space Model
 ```math
 \dot{x} = Ax + Bu
-States: armature current and angular velocityController: LQR optimal with full-state feedbackObserver: Luenberger for unmeasured state estimation
-HEV Power Split Modes
+States: armature current and angular velocity
+Controller: LQR optimal with full-state
+feedbackObserver: Luenberger for unmeasured state estimation
+**## HEV Power Split Modes**
