@@ -120,4 +120,5 @@ Author: Mintesinot Esayas
 Degree: BSC. Mechatronics Engineering (4th)
 
 Focus: Hybrid powertrains, Modern control system
+
 Open to: Engineering roles & freelance CAD/Simulation work 
