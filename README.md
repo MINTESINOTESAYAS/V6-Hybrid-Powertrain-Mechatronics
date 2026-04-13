@@ -19,7 +19,7 @@ across three domains:
   Luenberger observer in MATLAB/Simulink
 
 ---
-
+""" text
 ## Project Structure
 
 V6_Hybrid_Mechatronics_Project/
@@ -51,7 +51,7 @@ V6_Hybrid_Mechatronics_Project/
 └── 06_Documentation/
 ├── Project_Report.pdf
 └── Presentation_Slides.pptx
-"
+"""
 ---
 
 ## Tools Used
