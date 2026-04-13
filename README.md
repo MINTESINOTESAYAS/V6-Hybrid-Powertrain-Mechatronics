@@ -68,14 +68,14 @@ V6_Hybrid_Mechatronics_Project/
 
 ## Completed Phases
 
-- [x] V6 engine 3D model — all parts and assembly
+- [ ] V6 engine 3D model — all parts and assembly
 - [ ] CFD flow simulation — intake manifold
 - [ ] DC motor SolidWorks model
 - [ ] MATLAB state space motor model
 - [ ] LQR controller + Luenberger observer
 - [ ] Full HEV Simulink simulation
 - [ ] SolidWorks Electrical integration
-- [ ] Final report (LaTeX)
+- [ ] Final report
 
 ---
 
@@ -84,7 +84,18 @@ V6_Hybrid_Mechatronics_Project/
 ### DC Motor State Space Model
 ```math
 \dot{x} = Ax + Bu
+---
 States: armature current and angular velocity
 Controller: LQR optimal with full-state
 feedbackObserver: Luenberger for unmeasured state estimation
-**## HEV Power Split Modes**
+---
+## HEV Power Split Modes
+
+| Mode | Condition | ICE  | Motor |
+|------|---------|
+| EV Only | Power <15KW, SOC>30% | Off | Active |
+| SolidWorks Flow Simulation | CFD intake manifold analysis |
+| SolidWorks Electrical | Wiring harness & PCB layout |
+| MATLAB R2024a | State space modelling & LQR design |
+| Simulink | Dynamic system simulation |
+| Simscape | Physical component modelling |
