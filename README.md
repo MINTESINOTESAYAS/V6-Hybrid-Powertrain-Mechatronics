@@ -88,11 +88,9 @@ V6_Hybrid_Mechatronics_Project/
 ```
 #### States: 
 Armature current and angular velocity
-#### Controller: 
-LQR optimal with full-state
+#### Controller: LQR optimal with full-state
 
-#### feedbackObserver:
-Luenberger for unmeasured state estimation
+#### FeedbackObserver:Luenberger for unmeasured state estimation
 
 ---
 ## HEV Power Split Modes
