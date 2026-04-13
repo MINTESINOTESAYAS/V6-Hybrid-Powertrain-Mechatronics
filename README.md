@@ -108,3 +108,14 @@ Luenberger for unmeasured state estimation
 | ICE Only | Power>80KW | Active | Off |
 | Regen Brake | Deceleration | Off | Generator |
 | Charging | SOC<40% | Extra | Generator |
+
+## Results
+
+Results will be updated as each phase is completed.
+
+## About
+
+Author: Mintesinot Esayas
+Degree: BSC. Mechatronics Engineering (4th)
+Focus: Hybrid powertrains, Modern control system
+Open to: Engineering roles & freelance CAD/Simulation work 
