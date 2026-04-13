@@ -102,10 +102,9 @@ Luenberger for unmeasured state estimation
 ## HEV Power Split Modes
 
 | Mode | Condition | ICE  | Motor |
-|------|---------|
+|----|---------|---|-----|
 | EV Only | Power <15KW, SOC>30% | Off | Active |
-| SolidWorks Flow Simulation | CFD intake manifold analysis |
-| SolidWorks Electrical | Wiring harness & PCB layout |
-| MATLAB R2024a | State space modelling & LQR design |
-| Simulink | Dynamic system simulation |
-| Simscape | Physical component modelling |
+| Hybrid | 15KW<Power<80KW | Active | Active |
+| ICE Only | Power>80KW | Active | Off |
+| Regen Brake | Deceleration | Off | Generator |
+| Charging | SOC<40% | Extra | Generator |
