@@ -21,7 +21,7 @@ across three domains:
 ---
 
 ## Project Structure
-```text
+```text"
 V6_Hybrid_Mechatronics_Project/
 │
 ├── 01_SolidWorks_Mechanical/
@@ -51,9 +51,8 @@ V6_Hybrid_Mechatronics_Project/
 └── 06_Documentation/
 ├── Project_Report.pdf
 └── Presentation_Slides.pptx
-
+"
 ---
-text```
 
 ## Tools Used
 
