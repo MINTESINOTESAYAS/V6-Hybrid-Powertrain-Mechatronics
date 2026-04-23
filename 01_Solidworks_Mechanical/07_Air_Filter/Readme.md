@@ -1,2 +1,1 @@
-# Air_Filter
-![Air_Filter](./07_Air_Filter.jpg)
+![Air_Filter Model](./07_Air_Filter.jpg)
