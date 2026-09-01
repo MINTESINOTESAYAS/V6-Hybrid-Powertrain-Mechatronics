@@ -49,8 +49,15 @@ V6_Hybrid_Mechatronics_Project/
 │   └── SW_to_Simulink_Parameters/
 │
 └── 06_Documentation/
-├── Project_Report.pdf
-└── Presentation_Slides.pptx
+    ├── Project_Report.pdf
+    └── Presentation_Slides.pptx
+
+└── 07_Walk_Through_Metal_Detector/
+    ├── README.md
+    ├── Project_Specification.md
+    ├── Bill_of_Materials.md
+    ├── SolidWorks_Modeling_Guide.md
+    └── wtmd_model.scad
 
 ---
 ```
